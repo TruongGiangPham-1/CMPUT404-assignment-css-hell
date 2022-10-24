@@ -1,0 +1,21 @@
+* {
+    font-family: serif;
+}
+
+
+html {
+    background-color: bisque;
+}
+
+h2 {
+    font: italic bold;
+    font-size: 3em;
+}
+
+p {
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+

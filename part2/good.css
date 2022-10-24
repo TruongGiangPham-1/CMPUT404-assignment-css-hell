@@ -1,0 +1,46 @@
+
+
+
+.WholeContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;   /*  66% 33% split on column*/
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1px;
+    background: #eee;
+    padding: 1em;
+    width: 75%;
+    border: 10px solid black;
+    margin: auto;
+    text-align: center;
+}
+
+
+.WholeContainer  > * {
+    padding: 1em;
+}
+
+.headers {
+    width: 75%;
+    margin: auto; 
+    min-height: 25%;
+    font-size: 2em;
+    font: bold;
+    grid-area: 1 / 1 /  2 / 2;
+}
+
+#WhoAmI {
+    min-height: 50%;
+    grid-area: 2 / 1 / 3/ 2;
+}
+
+#ProffesionalHistory {
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+#importantPoints {
+    grid-area: 4 / 1 / 5 / 2;
+}
+
+#sidebar {
+    grid-area: 2 / 2 / 5 / 3;
+}
