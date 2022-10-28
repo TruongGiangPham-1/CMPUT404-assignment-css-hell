@@ -21,4 +21,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+PART 1
+=================
+I used border-radius to make the image have round edge; I created a square box around the chapter titles.
+I changed the font famility to times new roman. I used yellowish background color to make the page look old.
