@@ -22,6 +22,7 @@
     padding: 1em;
 }
 
+/*got the gradient code from this color generator https://cssgradient.io/ */
 .headers {
     grid-area: 1 / 1 / 2 / 3;
     width: 75%;
